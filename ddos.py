@@ -1,7 +1,19 @@
 #!/bin/env python3
-import requests
 
-target = input("Enter the target name or ip or domain name or url: ")
+#importing libraries
+import requests
+import sockets
+import threading ##threading to speed up the process
+
+
+
+target = str(input("Enter the target name or ip or domain name or url: "))
+port = int(input("Enter the target port number: "))
+trd = int(input("Enter the number of threads: "))
+
+##attacking mechanism will as follows
+
+
 
 
 ##sending request to the server
