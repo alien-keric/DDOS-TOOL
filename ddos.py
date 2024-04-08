@@ -5,9 +5,21 @@ import socket
 import threading ##threading to speed up the process
 import os
 
-os.system("clear") 
-os.system("toilet BABY-DDOS")
-print("Author:alienX")
+print("\n\n")
+print("         +---------------------------------------+")
+print("         |          Apr, 7th, 2024               |")
+print("         |  This is a simple DOS attack script   |")
+print("         |  Github:https://github.com/alien-keric|")
+print("         |      Author: alienX                   |")
+print("         |            Version: 2.0               |")
+print("         +---------------------------alien-------+")
+
+print("\n\n")
+
+
+#os.system("clear") 
+#os.system("toilet BABY-DDOS")
+#print("Author:alienX")
 print("For Education purpose >.*.< ")
 
 target = str(input("Enter the target name or ip or domain name or url: "))
