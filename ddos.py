@@ -28,6 +28,10 @@ for i in range(trd):
     thread.start()
 
 
+global attack_num
+attack_num += 1
+print(attack_num)
+
 ##os.system("clear") 
 ##os.system("toilet DDOS-BABY")
 
